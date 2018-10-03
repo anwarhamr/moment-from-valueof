@@ -1,3 +1,1 @@
-import mfv from './moment-from-valueof'
-
-export default mfv
+module.exports = require( './moment-from-valueof')
