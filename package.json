@@ -1,0 +1,39 @@
+{
+  "name": "moment-from-valueof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "DEBUG=* & jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwarhamr/moment-from-valueof.git"
+  },
+  "keywords": [
+    "moment",
+    "utc",
+    "valueof"
+  ],
+  "author": "Rob Lingstuyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anwarhamr/moment-from-valueof/issues"
+  },
+  "homepage": "https://github.com/anwarhamr/moment-from-valueof#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "clone": "^2.1.2",
+    "debug": "^4.0.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0"
+  }
+}
