@@ -9,7 +9,7 @@ This module is a helper for objects that have used valueOf and you'd like to get
 
 ```
 let time =moment().valueOf(),
- ops = {
+  ops = {
      newObject:true,
      toFormat:"YYYY-MM-DD hh:mm"
    },

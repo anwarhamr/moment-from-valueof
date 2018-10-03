@@ -46,7 +46,7 @@ var recurse = (obj,propMatcher,valueMatcher,converter) =>{
   return obj
 }
 var setupPropMatcher = (options)=>{
-  return (x)=> options.propNameMatcher.test(x)
+  return (x)=> options.propNameMatcher(x)
 }
 var setupValueMatcher = (options)=>{
   return null
