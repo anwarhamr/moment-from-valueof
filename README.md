@@ -42,7 +42,7 @@ Option Name | Values *=default | Use | Example
 --- |--- |--- |--- |
 *newObject* | *true, false | `false` will replace properties in the supplied object |
 *propNameMatcher* | *`(v)=>new RegExp('utc').test(v)` | Any true false function that will determine if we act on this property  | `(v)=>v.includes('datetime')`
-*toFormat* | *null, string | valid moment string format | https://devhints.io/moment
+*toFormat* | *null, string | when null converted values will be moment objects, otherwise the format value will be applied and a string will be returned as the property value | https://devhints.io/moment
 *newProperty* | *null, `{ name: nullable string, prefix:nullable string, postfix:nullable string}` | use this property if you would like to retain the original property; a new property will be added to the returned object.  If `name` is present `prefix` and `postfix` values will be ignored |
 
 
