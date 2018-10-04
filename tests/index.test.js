@@ -1,5 +1,5 @@
 import moment from 'moment'
-import momentFromValueOf  from '../moment-from-valueof'
+import momentFromValueOf  from '../src/moment-from-valueof'
 
 test('replaces utc single level',()=>{
   // reducer should do the sorting and so we should ask for the first thing in the list.
