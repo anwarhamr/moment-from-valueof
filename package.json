@@ -2,12 +2,13 @@
   "name": "moment-from-valueof",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "module": "moment-from-valueof.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "DEBUG=* & jest"
+    "test": "jest",
+    "debug": "nodemon --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "repository": {
     "type": "git",

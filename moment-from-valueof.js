@@ -17,6 +17,7 @@ newProperty:defult null -
 
 }
 */
+
 var defaultOptions = {
   newObject:true,
   propNameMatcher : (v)=> new RegExp("utc").test(v),
@@ -82,5 +83,4 @@ var handleNewPropName = (obj,k,m,options)=>{
   }
   }
 }
-module.exports = momentFromValueOf
 export default momentFromValueOf

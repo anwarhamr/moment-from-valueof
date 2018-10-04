@@ -33,7 +33,6 @@ test('replaces utc single level with format is already moment obj',()=>{
    options =  {
      toFormat:"YYYY",
    };
-   debugger
   let result = momentFromValueOf(oit,options)
   expect(result.utc).toBe(time.format(options.toFormat));
 });
