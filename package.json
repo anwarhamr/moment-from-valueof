@@ -2,6 +2,7 @@
   "name": "moment-from-valueof",
   "version": "1.0.4",
   "description": "",
+  "main": "moment-from-valueof.js",
   "module": "moment-from-valueof.js",
   "directories": {
     "test": "tests"
