@@ -34,7 +34,7 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "clone": "^2.1.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.22.2"
   },
   "devDependencies": {
